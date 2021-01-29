@@ -1,12 +1,20 @@
 <template>
-  <div class="home">首页</div>
+  <div>
+    购物车
+  </div>
 </template>
 
 <script>
 export default {
+  name: 'Cart',
+  data () {
+    return {
 
+    }
+  }
 }
 </script>
 
 <style>
+
 </style>
