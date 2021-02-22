@@ -16,9 +16,9 @@ export default {
     width: 750px;
     height: 100px;
     background-color: #fff;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    // position: fixed;
+    // left: 0;
+    // bottom: 0;
     display: flex;
   }
 </style>

@@ -16,4 +16,15 @@ export default {
 
 <style lang="less">
   @import './assets/css/base.css';
+  @import './assets/iconfont/iconfont.css';
+
+  #app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    >div:first-child {
+      flex:1;
+      overflow: hidden;
+    }
+  }
 </style>
