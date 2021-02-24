@@ -1,13 +1,14 @@
 <template>
   <div class="sidebar">
-    <scroll class="scroll_content">
+    <scroll class="scroll_content" :data="listData">
       <div class="sidebar_list">
         <div
         class="sidebar_item"
         v-for="(item, index) in listData"
-        :key="index"
+        :key="item.id"
+        @click="onSidebarClick(index)"
         :class="{sidebar_active: index === currentIndex, sidebar_active_prev: index === currentIndex-1, sidebar_active_next: index === currentIndex+1}">
-          {{item}}
+          {{item.title}}
         </div>
       </div>
     </scroll>
@@ -22,17 +23,23 @@ export default {
     listData: {
       type: Array,
       default () {
-        return ['热门推荐', '手机数码', '大家电', '电脑办公', '厨卫大电', '生活家电', '食品酒饮', '食品酒饮2', '食品酒饮3', '食品酒饮4', '食品酒饮5', '食品酒饮6', '食品酒饮7']
+        return []
       }
     }
   },
   data () {
     return {
-      currentIndex: 1
+      currentIndex: 0
     }
   },
   components: {
     Scroll
+  },
+  methods: {
+    onSidebarClick (index) {
+      this.currentIndex = index
+      this.$emit('changeSidebar', index)
+    }
   }
 }
 </script>
@@ -52,7 +59,7 @@ export default {
           justify-content: center;
           align-items: center;
           color: #666;
-          font-size: 20px;
+          font-size: 24px;
           &.sidebar_active {
             color: #000;
             font-weight: 700;
@@ -63,6 +70,7 @@ export default {
               position: absolute;
               width: 3px;
               height: 20px;
+              border-radius: 1px;
               background-color: #ffcc00;
               top: 50%;
               left: 10px;
@@ -70,10 +78,10 @@ export default {
             }
           }
           &.sidebar_active_prev {
-            border-bottom-right-radius: 25px;
+            border-bottom-right-radius: 20px;
           }
           &.sidebar_active_next{
-            border-top-right-radius: 25px;
+            border-top-right-radius: 20px;
           }
         }
       }

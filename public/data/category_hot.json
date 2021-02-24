@@ -1,0 +1,112 @@
+[
+  {
+    "title": "热门推荐",
+    "list": [
+      {
+        "id": 101,
+        "name": "手机",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/93f267d6-7f74-4f70-8028-e82df178f6b8.jpg"
+      },
+      {
+        "id": 102,
+        "name": "笔记本",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/edd7c42d-1476-4b36-b371-4d39a5d03606.jpg"
+      },
+      {
+        "id": 103,
+        "name": "平板电脑",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/bceb3279-96f4-46d7-9496-84d974234fcd.jpg"
+      },
+      {
+        "id": 104,
+        "name": "热水器",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/ac7292d7-4ad3-4d96-a0fc-54046715891a.jpg"
+      },
+      {
+        "id": 105,
+        "name": "取暖器",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/58d1a6ab-1c7c-4423-8048-9b0661284ff8.jpg"
+      },
+      {
+        "id": 106,
+        "name": "卫衣",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/04e9b7fd-7d4c-4e83-88be-cf665d8548e1.jpg"
+      },
+      {
+        "id": 107,
+        "name": "护肤套装",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/fb66149e-aa2a-4e62-bd9d-dcd931c8b512.jpg"
+      },
+      {
+        "id": 108,
+        "name": "空调",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/64eb3870-43f3-4847-bc1f-16e7e0f6a0a6.jpg"
+      },
+      {
+        "id": 109,
+        "name": "电视",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/b84513d5-7f1e-44ae-91d7-15be4e641213.jpg"
+      },
+      {
+        "id": 110,
+        "name": "冰箱",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/a0aea1b1-a589-434b-b5a2-74f9b63266e2.jpg"
+      },
+      {
+        "id": 111,
+        "name": "洗衣机",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/f521121a-a40c-4ee3-be37-b0c456370eb3.jpg"
+      },
+      {
+        "id": 112,
+        "name": "奶粉",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/7b9c2bd6-ac40-43cf-ba0a-7eb5ae097b58.png"
+      }
+    ]
+  },
+  {
+    "title": "特色频道",
+    "list": [
+      {
+        "id": 113,
+        "name": "苏宁电竞",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/161a446c-e355-47b1-90b0-b7c587b71447.jpg"
+      },
+      {
+        "id": 114,
+        "name": "super会员",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/87cfed9e-c705-46da-8a7f-bcdd13426588.png"
+      },
+      {
+        "id": 115,
+        "name": "苏宁乐居",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/b261a1bf-fffb-4005-8104-8b7399288ac0.png"
+      },
+      {
+        "id": 116,
+        "name": "以旧换新",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/dd068e3f-4d17-4f40-924c-409cca8cc654.png"
+      },
+      {
+        "id": 117,
+        "name": "满51抵50",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/d826c002-2a98-425e-a787-1a6a4ee322d5.png"
+      }
+    ]
+  },
+  {
+    "title": "专场频道",
+    "list": [
+      {
+        "id": 118,
+        "name": "大聚惠",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/2d547dab-c790-4a98-945d-30537f0c5f62.png"
+      },
+      {
+        "id": 119,
+        "name": "限时秒杀",
+        "path": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/1dee8ae5-1220-4919-84e1-ca76ac63c31b.png"
+      }
+    ]
+  }
+]

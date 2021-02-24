@@ -66,7 +66,11 @@ export default {
       this.scroll = new BScroll(this.$refs.wrapper, {
         probeType: this.probeType,
         click: this.click,
-        scrollX: this.scrollX
+        scrollX: this.scrollX,
+        // 解决项目需要刷新后才能滚动的bug
+        mouseWheel: true, // 开启鼠标滚轮
+        disableMouse: false, // 启用鼠标拖动
+        disableTouch: false // 启用手指触摸
       })
 
       if (this.listenScroll) {

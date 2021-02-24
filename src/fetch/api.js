@@ -1,3 +1,6 @@
-import { httpGet } from './http.js'
+// eslint-disable-next-line no-unused-vars
+import { httpGet, httpPost } from './http.js'
 
-export const getorglist = (params = {}) => httpGet({ url: 'apps/api/org/list', params })
+export const getCategoryList = (params = {}) => httpGet({ url: '/data/category.json', params })
+
+export const getCategoryContent = (params = {}) => httpGet({ url: '/data/category_hot.json', params })
