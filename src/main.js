@@ -4,9 +4,13 @@ import router from './router'
 import store from './store'
 import '@/utils/rem.js'
 
-import { Button } from 'vant'
+import { Button, Dialog, Swipe, SwipeItem, Lazyload } from 'vant'
 
 Vue.use(Button)
+Vue.use(Dialog)
+Vue.use(Swipe)
+Vue.use(SwipeItem)
+Vue.use(Lazyload)
 
 Vue.config.productionTip = false
 

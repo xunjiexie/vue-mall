@@ -1,0 +1,52 @@
+[
+  {
+    "id": 101,
+    "text": "苏宁秒杀",
+    "icon": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/d5eedc36-2a64-402c-9e0c-d2225c75b4eb.png" 
+  },
+  {
+    "id": 102,
+    "text": "苏宁超市",
+    "icon": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/2a373206-47b9-4230-8679-5581cb64e56f.png" 
+  },
+  {
+    "id": 103,
+    "text": "苏宁拼购",
+    "icon": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/e97a44a7-3be0-4ffd-9748-cbeec3c23f39.png" 
+  },
+  {
+    "id": 104,
+    "text": "手机数码",
+    "icon": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/0ee937b8-3c8f-44f9-ab6f-e1bfe40d6076.png" 
+  },
+  {
+    "id": 105,
+    "text": "苏宁家电",
+    "icon": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/bf81333e-11db-4b8e-accd-6143e9c54e9d.png" 
+  },
+  {
+    "id": 106,
+    "text": "免费水果",
+    "icon": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/ba038620-4a11-47e0-be07-9cb2ee8fd5d3.png" 
+  },
+  {
+    "id": 107,
+    "text": "super会员",
+    "icon": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/bcc365f3-9a3c-463a-9dd1-b1a8e72cf102.png" 
+  },
+  {
+    "id": 108,
+    "text": "签到有礼",
+    "icon": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/9d281fa3-3d6a-4e08-bc92-1fb1d525d293.png" 
+  },
+  {
+    "id": 109,
+    "text": "领券中心",
+    "icon": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/d0097285-809d-4d15-aaf5-a48081920c49.png" 
+  },
+  {
+    "id": 110,
+    "text": "更多频道",
+    "icon": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-9a7ed524-1300-4486-8a19-9316b91f5dfa/e8a0aac5-f945-43e2-bf2c-42d732b07495.png" 
+  }
+]
