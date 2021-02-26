@@ -101,6 +101,7 @@ export default {
       this.scroll && this.scroll.enable()
     },
     refresh () {
+      console.log('233')
       this.scroll && this.scroll.refresh()
     },
     scrollTo () {

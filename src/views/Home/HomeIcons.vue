@@ -30,7 +30,7 @@ export default {
       height: 140px;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: center;
       align-items: center;
       img {
         width: 84px;
@@ -38,6 +38,7 @@ export default {
       p {
         color: #666;
         font-size: 20px;
+        margin-top: 4px;
       }
     }
   }

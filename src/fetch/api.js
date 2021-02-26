@@ -8,3 +8,5 @@ export const getCategoryContent = (params = {}) => httpGet({ url: '/data/categor
 export const getHomeSwiper = (params = {}) => httpGet({ url: '/data/home_swiper.json', params })
 
 export const getHomeIcons = (params = {}) => httpGet({ url: '/data/home_icons.json', params })
+
+export const getHomeGuess = (params = {}) => httpGet({ url: '/data/home_guess.json', params })
