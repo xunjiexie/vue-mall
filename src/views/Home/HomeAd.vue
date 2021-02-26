@@ -26,9 +26,11 @@ export default {
     flex-wrap: wrap;
     .img1 {
       width: 750px;
+      height: 180px;
     }
     .img2, .img3 {
       width: 375px;
+      height: 180px;
     }
   }
 </style>

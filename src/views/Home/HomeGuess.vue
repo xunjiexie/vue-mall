@@ -6,7 +6,7 @@
         <div v-for="(item, index) in listData" :key="index" class="guess_item_wrapper">
           <div v-if="!item.isAd" class="guess_item_product">
             <div class="product_img_warapper">
-              <img class="product_img" :src="item.img" alt="">
+              <img class="product_img" :lazy-src="item.img" alt="">
             </div>
             <div class="product_content">
               <p class="product_title">{{item.title}}</p>
@@ -20,7 +20,7 @@
             </div>
           </div>
           <div v-else class="guess_item_ad">
-            <img class="ad_img" :src="item.img" alt="">
+            <img class="ad_img" :lazy-src="item.img" alt="">
             <p class="ad_text ad_text1">{{item.adTips[0]}}</p>
             <p class="ad_text ad_text2">{{item.adTips[1]}}</p>
           </div>
@@ -54,6 +54,7 @@ export default {
     box-sizing: border-box;
     .guess_title {
       width: 100%;
+      height: 58px;
     }
     .guess_item_wrapper {
       width: 342px;
