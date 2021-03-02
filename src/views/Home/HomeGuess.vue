@@ -1,6 +1,6 @@
 <template>
   <div class="home_guess">
-    <img class="guess_title" src="../../assets/imgs/157793128909842388.webp" alt="">
+    <img class="guess_title" src="../../assets/imgs/157793128909842388.png" alt="">
     <waterfall :col='2' :data="listData" @loadmore="loadmore">
       <template>
         <div v-for="(item, index) in listData" :key="index" class="guess_item_wrapper">
@@ -55,6 +55,8 @@ export default {
     .guess_title {
       width: 100%;
       height: 58px;
+      position: relative;
+      left: -5px;
     }
     .guess_item_wrapper {
       width: 342px;

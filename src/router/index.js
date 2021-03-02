@@ -36,9 +36,19 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes
 })
+
+// router.beforeEach((to, from, next) => {
+//   // 需要登录才能访问的页面
+//   const needLoginViews = ['Profile']
+//   if (needLoginViews.includes(to.name)) {
+//     next({ name: 'Login' })
+//   } else {
+//     next()
+//   }
+// })
 
 export default router
