@@ -1,21 +1,21 @@
 <template>
   <tabbar>
-    <tabbar-item path="/home">
+    <tabbar-item path="/suning/home">
       <template v-slot:icon><img src="../../assets/imgs/home.png" alt=""></template>
       <template v-slot:icon_active><img src="../../assets/imgs/home-active.png" alt=""></template>
       <template v-slot:name><p>首页</p></template>
     </tabbar-item>
-    <tabbar-item path="/category">
+    <tabbar-item path="/suning/category">
       <template v-slot:icon><img src="../../assets/imgs/category.png" alt=""></template>
       <template v-slot:icon_active><img src="../../assets/imgs/category-active.png" alt=""></template>
       <template v-slot:name><p>分类</p></template>
     </tabbar-item>
-    <tabbar-item path="/cart">
+    <tabbar-item path="/suning/cart">
       <template v-slot:icon><img src="../../assets/imgs/cart.png" alt=""></template>
       <template v-slot:icon_active><img src="../../assets/imgs/cart-active.png" alt=""></template>
       <template v-slot:name><p>购物车</p></template>
     </tabbar-item>
-    <tabbar-item path="/profile">
+    <tabbar-item path="/suning/profile">
       <template v-slot:icon><img src="../../assets/imgs/profile.png" alt=""></template>
       <template v-slot:icon_active><img src="../../assets/imgs/profile-active.png" alt=""></template>
       <template v-slot:name><p>我的</p></template>

@@ -1,18 +1,12 @@
 <template>
   <div id="app">
-    <keep-alive>
-      <router-view/>
-    </keep-alive>
-    <main-tabbar></main-tabbar>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import MainTabbar from './components/MainTabbar/MainTabbar'
 export default {
-  components: {
-    MainTabbar
-  }
+
 }
 </script>
 
@@ -22,11 +16,5 @@ export default {
 
   #app {
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    >div:first-child {
-      flex:1;
-      overflow: hidden;
-    }
   }
 </style>

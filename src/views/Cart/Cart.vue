@@ -8,7 +8,7 @@
       </p>
     </div>
     <div class="cart_content">
-      <cart-login></cart-login>
+      <cart-login v-if="!$store.state.isLogin"></cart-login>
       <cart-empty></cart-empty>
     </div>
   </div>

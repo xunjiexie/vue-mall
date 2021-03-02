@@ -5,14 +5,16 @@ import store from './store/store'
 import '@/utils/rem.js'
 import waterfall from 'vue-waterfall2'
 
-import { Button, Dialog, Swipe, SwipeItem, Lazyload, Loading } from 'vant'
+import { Button, Toast, Swipe, SwipeItem, Lazyload, Loading, Field, Icon } from 'vant'
 
 Vue.use(Button)
-Vue.use(Dialog)
+Vue.use(Toast)
 Vue.use(Swipe)
 Vue.use(SwipeItem)
 Vue.use(Lazyload)
 Vue.use(Loading)
+Vue.use(Field)
+Vue.use(Icon)
 
 Vue.use(waterfall)
 
